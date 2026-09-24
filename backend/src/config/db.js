@@ -1,8 +1,6 @@
-import mongoose from "mongoose"
-
 import config from "./config.js"
 
-
+const PORT = process.env.PORT || 3000;
 
 const ConnectDB  = async()=>{
     try {
